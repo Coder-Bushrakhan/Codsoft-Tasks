@@ -1,9 +1,10 @@
+"use client"
 import Image from "next/image"
 import Link from "next/link"
 export default function Projects()
 {
     return(
-      <div className="container">
+      <div className="container p-4">
         <section className="text-gray-600 body-font ">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20">
@@ -11,7 +12,6 @@ export default function Projects()
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 uppercase text-gray-900">
                My projects
               </h1>
-              <div className="h-1 w-20 bg-indigo-500 rounded" />
             </div>
             <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
              These are the projects which i made in short period of time.

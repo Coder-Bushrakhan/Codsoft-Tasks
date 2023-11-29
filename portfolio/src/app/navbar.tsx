@@ -12,8 +12,11 @@ export default function Navbar()
   </div>
  
   <div className="navbar-end">
-    <a className="btn">      <a href="/cv/resume.pdf"download={"resume.pdf"}>Download Resume</a>
-</a>
+  <button className="bg-blue-600 rounded-lg  " >
+<a href="/cv/resume.pdf" download={"resume.pdf"}><h1 className="text-center p-2 text-white">Download Resume</h1></a>
+  </button>
+    {/* <a className="btn">      <a href="/cv/resume.pdf"download={"resume.pdf"}>Download Resume</a>
+</a> */}
   </div>
 </div>
 
