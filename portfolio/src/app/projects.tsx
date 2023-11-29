@@ -18,8 +18,8 @@ export default function Projects()
             </p>
           </div>
           <div className="lg:flex justify-between  md:flex-row sm:flex-row">
-            <div className="xl:w-1/4 md:w-1/2 p-4">
-              <div className="bg-gray-100 p-6 rounded-lg">
+            <div className="xl:w-1/4 md:w-1/2 p-4  hover:-translate-y-4 transition duration-700 ease-in-out  hover:scale-110">
+              <div className="bg-gray-100 p-6 rounded-lg shadow-xl">
                 <Image
                   className="h-40 rounded w-full object-cover object-center mb-6"
                   src="/pro2.png"
@@ -44,8 +44,8 @@ export default function Projects()
                 </Link>
               </div>
             </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
-              <div className="bg-gray-100 p-6 rounded-lg">
+            <div className="xl:w-1/4 md:w-1/2 p-4 hover:-translate-y-4 transition duration-700 ease-in-out  hover:scale-110">
+              <div className="bg-gray-100 p-6 rounded-lg shadow-xl">
               <Image
                   className="h-40 rounded w-full object-cover object-center mb-6"
                   src="/pro1.png"
@@ -72,8 +72,8 @@ export default function Projects()
                 </Link>
               </div>
             </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
-              <div className="bg-gray-100 p-6 rounded-lg">
+            <div className="xl:w-1/4 md:w-1/2 p-4 hover:-translate-y-4 transition duration-700 ease-in-out  hover:scale-110">
+              <div className="bg-gray-100 p-6 rounded-lg shadow-xl ">
               <Image
                   className="h-40 rounded w-full object-cover object-center mb-6"
                   src="/pro3.png"
